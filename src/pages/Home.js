@@ -1,9 +1,19 @@
 import React from 'react'
+import Header from '../components/Header'
 
 function Home() {
     return (
         <div>
-            <h1>Home</h1>
+            <Header />
+            <div className="introduction flex-with-center">
+                <div>
+                    <h1>JUSTON SMITH</h1>
+                    <div className="intro-content d-flex justify-content-between">
+                            <p>Full Stack Web Developer <br/> Software Engineer </p>
+                            <button className='primary-button font-bold w-50'>Get Started</button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

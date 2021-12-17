@@ -9,6 +9,10 @@ body {
   font-family: 'Exo 2', sans-serif;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -27,4 +31,10 @@ code {
 
 .font-bold {
   font-weight: bold;
+}
+
+.n-box1 {
+  
+  background: linear-gradient(145deg, #270343, #2003396e);
+  box-shadow:  12px 12px 0px #0e011960, -12px -12px 0px #3a05658e;
 }

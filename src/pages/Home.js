@@ -10,7 +10,7 @@ function Home() {
                     <h1>JUSTON SMITH</h1>
                     <div className="intro-content d-flex justify-content-between">
                             <p>Full Stack Web Developer <br/> Software Engineer </p>
-                            <button className='primary-button font-bold w-50'>Get Started</button>
+                            <button className='primary-button font-bold'>Get Started</button>
                     </div>
                 </div>
             </div>

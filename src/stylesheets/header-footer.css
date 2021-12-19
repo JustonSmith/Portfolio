@@ -20,7 +20,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #049b4b99;
+    background-color: #fbff0099;
     height: 65vh;
     width:30%;
     border-bottom-left-radius: 45%;
@@ -43,20 +43,20 @@
     transition: all 0.5s;
 }
 ul li {
-    color:rgb(106, 33, 190);
+    color:rgb(190, 33, 33);
     list-style: none;
     margin-top: 25px;
 }
 
 ul a {
-    color:rgb(121, 69, 180);
+    color:rgb(247, 243, 243);
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
 }
 
 ul a:hover {
-    color: white;
+    color: rgb(253, 249, 5);
     text-shadow: 5px 5px 50px white;
 }
 
@@ -83,14 +83,14 @@ ul a:hover {
         position: fixed;
         top: 0;
         right: 0;
-        background-color: #049b4b99;
+        background-color: #ffee05c5;
         height: 100vh;
         width:100%;
         transition: width 0.5s;
         overflow: hidden;
         border-bottom-left-radius: 50%;
         border-top-left-radius: 50%;
-        border-left: 2px solid rgba(255, 255, 255, 0.445);
+        border-left: 2px solid rgba(243, 8, 8, 0.445);
         
         
     }
@@ -110,7 +110,7 @@ ul a:hover {
     }
 
     .menu-icon {
-        color: rgba(12, 12, 12, 0.52);
+        color: rgba(253, 1, 1, 0.52);
         font-size: 70px;
         margin: 20px;
         border-radius: 20px;

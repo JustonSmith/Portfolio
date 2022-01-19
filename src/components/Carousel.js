@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaReact, FaNodeJs, FaJava, FaJsSquare, FaPython, FaCss3, FaHtml5, FaBootstrap, FaNpm} from 'react-icons/fa'
 import { SiMongodb, SiDjango, SiFlask, SiMysql, SiSpringboot, SiPostman } from 'react-icons/si'
+import Header from './Header'
 
 function Carousel() {
     return (
